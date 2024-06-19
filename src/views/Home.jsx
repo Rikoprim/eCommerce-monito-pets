@@ -1,4 +1,5 @@
 import Banner from '../components/Banner'
+import Blog from '../components/Blog'
 import Heroes from '../components/Heroes'
 import ProductAnimal from '../components/ProductAnimal'
 import ProductOur from '../components/ProductOur'
@@ -19,6 +20,7 @@ function App() {
       />
       <ProductOur />
       <Seller />
+      <Blog />
     </>
   )
 }

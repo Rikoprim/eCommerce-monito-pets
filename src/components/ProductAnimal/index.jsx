@@ -27,7 +27,7 @@ const ProductAnimal = () => {
           <Col className="pb-4" key={product._id} lg={3} md={4} sm={4} xs={6}>
             <Card
               category="dogs"
-              href={`/detail`}
+              href={`/dogs/${product._id}`}
               title={product.title}
               image={product.images[0]}
               price={product.price}

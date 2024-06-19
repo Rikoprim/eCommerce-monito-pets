@@ -27,7 +27,7 @@ const ProductOur = () => {
           <Col className="pb-4" key={product._id} lg={3} md={4} sm={4} xs={6}>
             <Card
               category="products"
-              href={`/detail`}
+              href={`/product/${product._id}`}
               title={product.title}
               image={product.image}
               price={product.price}

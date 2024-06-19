@@ -4,10 +4,10 @@ import Subscribe from "../Subscribe";
 
 const Footer = () => {
   const navItems = [
-    { id: 1, label: "Home", url: "#" },
-    { id: 2, label: "Category", url: "#" },
-    { id: 3, label: "About", url: "#" },
-    { id: 4, label: "Contact", url: "#" },
+    { id: 1, label: "Home", url: "/" },
+    { id: 2, label: "Category", url: "/category" },
+    { id: 3, label: "About", url: "/about" },
+    { id: 4, label: "Contact", url: "/contact" },
   ];
 
   return (
